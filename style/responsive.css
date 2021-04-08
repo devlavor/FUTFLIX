@@ -1,0 +1,672 @@
+/* ----- Small Mobile ----- */
+
+@media screen and (max-width:320px){
+
+    :root{
+        font-size: 5px;
+    }
+
+    header{
+        width: 100%
+    }
+    
+    header img{
+        max-width: 50%;
+        max-height: 50%;
+        height: auto;
+        width: auto;
+    }
+
+    .site{
+        display: none;
+    }
+    
+    .mobile{
+        width: 20%;
+        left: 75%;
+        position: fixed;
+        display: table;
+    }
+
+    .mobile i{
+        display: table-cell;
+        vertical-align: middle;
+        text-align: right;
+        font-size: 3rem;
+        color: white;
+        padding-right: 10%;
+    }
+
+    .principal .info{
+        width: 100%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        text-align: center;
+        padding-bottom: 10%;
+    }
+
+    .principal .info img{
+        width: 8rem;
+        height: auto;
+        text-align: center;
+    }
+
+    .principal .principal-title{
+        font-size: 7rem;
+        line-height: 6rem;
+        padding-bottom: 5%;
+        padding-top: 2%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        text-align: center;
+    }
+
+    .principal .info .sinopse{
+        font-size: 2rem;
+        text-align: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .principal .info .botoes{
+        padding-top: 5rem;
+        z-index: 0;
+    }
+
+    .botao_play{
+        font-size: 3rem;
+    }
+
+    .botao_list{
+        font-size: 3rem;
+    }
+
+    .botao_list_mobile{
+        display: none;
+    }
+
+    .carousel-films{
+        width: 100%;
+        height: 75%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    main .title{
+        display: table;
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    main .title .title-em-alta{
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    main .title .title-jogos{
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    main .title .title-filmes{
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    main .title .title-doc{
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    footer .left-footer{
+        width: 80%;
+    }
+
+    footer .right-footer{
+        width: 20%;
+        left: 80%;
+    }
+
+    footer .footer-text{
+        font-size: 1.5rem;
+    }
+}
+
+/* ----- Medium Mobile ----- */
+
+@media screen and (min-width: 321px) and (max-width:375px){
+
+    :root{
+        font-size: 5px;
+    }
+
+    header{
+        width: 100%
+    }
+    
+    header img{
+        max-width: 50%;
+        max-height: 50%;
+        height: auto;
+        width: auto;
+    }
+
+    .site{
+        display: none;
+    }
+    
+    .mobile{
+        width: 20%;
+        left: 75%;
+        position: fixed;
+        display: table;
+    }
+
+    .mobile i{
+        display: table-cell;
+        vertical-align: middle;
+        text-align: right;
+        font-size: 3rem;
+        color: white;
+        padding-right: 10%;
+    }
+
+    .principal .info{
+        width: 100%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        text-align: center;
+        padding-bottom: 10%;
+    }
+
+    .principal .info img{
+        width: 6rem;
+        height: auto;
+        text-align: center;
+    }
+
+    .principal .principal-title{
+        font-size: 9rem;
+        line-height: 8rem;
+        padding-bottom: 5%;
+        padding-top: 2%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        text-align: center;
+    }
+
+    .principal .info .sinopse{
+        font-size: 2rem;
+        text-align: center;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .principal .info .botoes{
+        padding-top: 5rem;
+        z-index: 0;
+    }
+
+    .botao_play{
+        font-size: 3rem;
+    }
+
+    .botao_list{
+        font-size: 3rem;
+    }
+
+    .botao_list_mobile{
+        display: none;
+    }
+
+    .carousel-films{
+        width: 100%;
+        height: 75%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    main .title{
+        display: table;
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    main .title .title-em-alta{
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    main .title .title-jogos{
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    main .title .title-filmes{
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    main .title .title-doc{
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    footer .left-footer{
+        width: 80%;
+    }
+
+    footer .right-footer{
+        width: 20%;
+        left: 80%;
+    }
+
+    footer .footer-text{
+        font-size: 1.5rem;
+    }
+}
+
+/* ----- Large Mobile ----- */
+
+@media screen and (min-width: 376px) and (max-width:425px){
+
+    :root{
+        font-size: 5px;
+    }
+    
+    header{
+        width: 100%
+    }
+    
+    header img{
+        max-width: 50%;
+        max-height: 50%;
+        height: auto;
+        width: auto;
+    }
+
+    .site{
+        display: none;
+    }
+    
+    .mobile{
+        width: 20%;
+        left: 75%;
+        position: fixed;
+        display: table;
+    }
+    
+    .mobile i{
+        display: table-cell;
+        vertical-align: middle;
+        text-align: right;
+        font-size: 3rem;
+        color: white;
+        padding-right: 10%;
+    }
+    
+    .principal .info{
+        width: 100%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        text-align: center;
+        padding-bottom: 10%;
+    }
+    
+    .principal .info img{
+        width: 10rem;
+        height: auto;
+        text-align: center;
+    }
+    
+    .principal .principal-title{
+        font-size: 9rem;
+        line-height: 8rem;
+        padding-bottom: 5%;
+        padding-top: 2%;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        text-align: center;
+    }
+    
+    .principal .info .sinopse{
+        font-size: 2rem;
+        text-align: center;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    
+    .botao_play{
+        font-size: 4rem;
+    }
+    
+    .botao_list{
+        font-size: 4rem;
+    }
+    
+    .botao_list_mobile{
+        display: none;
+    }
+    
+    
+    .carousel-films{
+        width: 100%;
+        height: 75%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+    main .title{
+        display: table;
+        font-size: 3rem;
+        text-align: center;
+    }
+    
+    main .title .title-em-alta{
+        display: table-cell;
+        vertical-align: middle;
+    }
+    
+    main .title .title-jogos{
+        display: table-cell;
+        vertical-align: middle;
+    }
+    
+    main .title .title-filmes{
+        display: table-cell;
+        vertical-align: middle;
+    }
+    
+    main .title .title-doc{
+        display: table-cell;
+        vertical-align: middle;
+    }
+    
+    footer .left-footer{
+        width: 80%;
+    }
+    
+    footer .right-footer{
+        width: 20%;
+        left: 80%;
+    }
+    
+    footer .footer-text{
+        font-size: 1.5rem;
+    }
+    
+}
+
+/* ----- Tablet ----- */
+
+@media screen and (min-width: 426px) and (max-width:768px){
+
+    :root{
+        font-size: 10px;
+    }
+    
+    header{
+        width: 30%;
+        justify-content: left;
+        padding-left: 2rem;
+    }
+    
+    header img{
+        max-width: 50%;
+        max-height: 50%;
+        height: auto;
+        width: auto;
+    }
+
+    nav{
+        width: 70%;
+        height: 8%;
+        background-color: var(--azul);
+        position: fixed;
+        top: 0;
+        left: 30%;
+        z-index: 9999;
+    }
+
+    nav .left-container .menu{
+        width: 50%;
+        height: 100%;
+        position: relative;
+        display: inline-block;
+        z-index: 100;
+    }
+
+
+    nav .left-container .menu .menu-content {
+        display: none;
+        position: absolute;
+        background-color: var(--verde);
+        font-family: var(--title);
+        font-size: 2rem;
+        z-index: 1000;
+        text-align: center;
+        width: 100%;
+        z-index: 100;
+    }
+
+    .principal .info{
+        width: 70%;
+        padding-left: 2rem;
+        text-align: left;
+        padding-bottom: 2rem;
+    }
+    
+    .principal .info img{
+        width: 6rem;
+        height: auto;
+    }
+    
+    .principal .principal-title{
+        font-size: 4rem;
+        text-align: left;
+    }
+    
+    .principal .info .sinopse{
+        font-size: 1.5rem;
+        
+    }
+    
+    .botao_play{
+        font-size: 2.5rem;
+    }
+    
+    .botao_list{
+        font-size: 2.5rem;
+    }
+
+    .botao_list_mobile{
+        display: none;
+    }
+    
+    
+    .carousel-films{
+        width: 100%;
+        height: 75%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    
+    main .title{
+        display: table;
+        font-size: 2rem;
+        padding-left: 2rem;
+        text-align: left;
+    }
+    
+    main .title .title-em-alta{
+        display: table-cell;
+        vertical-align: middle;
+    }
+    
+    main .title .title-jogos{
+        display: table-cell;
+        vertical-align: middle;
+    }
+    
+    main .title .title-filmes{
+        display: table-cell;
+        vertical-align: middle;
+    }
+    
+    main .title .title-doc{
+        display: table-cell;
+        vertical-align: middle;
+    }
+    
+    footer .left-footer{
+        width: 80%;
+    }
+    
+    footer .right-footer{
+        width: 20%;
+        left: 80%;
+    }
+    
+    footer .footer-text{
+        font-size: 1.5rem;
+    }
+    
+}
+
+/* ----- Laptop ----- */
+
+@media screen and (min-width: 769px) and (max-width:1024px){
+
+    :root{
+        font-size: 10px;
+    }
+    
+    header{
+        
+        justify-content: left;
+        padding-left: 2rem;
+    }
+    
+    header img{
+        max-width: 75%;
+        max-height: 75%;
+        height: auto;
+        width: auto;
+    }
+
+    nav{
+        
+        height: 8%;
+        background-color: var(--azul);
+        position: fixed;
+        top: 0;
+        left: 15%;
+        z-index: 9999;
+    }
+
+    nav .left-container .menu{
+        width: 50%;
+        height: 100%;
+        position: relative;
+        display: inline-block;
+        z-index: 100;
+    }
+
+
+    nav .left-container .menu .menu-content {
+        display: none;
+        position: absolute;
+        background-color: var(--verde);
+        font-family: var(--title);
+        font-size: 2rem;
+        z-index: 1000;
+        text-align: center;
+        width: 100%;
+        z-index: 100;
+    }
+
+    .principal .info{
+        width: 70%;
+        padding-left: 2rem;
+        text-align: left;
+        padding-bottom: 2rem;
+    }
+    
+    .principal .info img{
+        width: 6rem;
+        height: auto;
+    }
+    
+    .principal .principal-title{
+        font-size: 4rem;
+        text-align: left;
+    }
+    
+    .principal .info .sinopse{
+        font-size: 1.5rem;
+        
+    }
+    
+    .botao_play{
+        font-size: 2rem;
+    }
+    
+    .botao_list{
+        font-size: 2rem;
+    }
+
+    .botao_list_mobile{
+        display: none;
+    }
+    
+    
+    .carousel-films{
+        width: 100%;
+        height: 75%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    
+    main .title{
+        display: table;
+        font-size: 2rem;
+        padding-left: 2rem;
+        text-align: left;
+    }
+    
+    main .title .title-em-alta{
+        display: table-cell;
+        vertical-align: middle;
+    }
+    
+    main .title .title-jogos{
+        display: table-cell;
+        vertical-align: middle;
+    }
+    
+    main .title .title-filmes{
+        display: table-cell;
+        vertical-align: middle;
+    }
+    
+    main .title .title-doc{
+        display: table-cell;
+        vertical-align: middle;
+    }
+    
+    footer .left-footer{
+        width: 70%;
+    }
+    
+    footer .right-footer{
+        width: 30%;
+        left: 70%;
+    }
+    
+    footer .footer-text{
+        font-size: 1.5rem;
+    }
+    
+}
+
+

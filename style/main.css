@@ -1,0 +1,483 @@
+:root{ /* Identidade Visual do Site */
+    --azul: rgb(6, 17, 58);
+    --azul_claro: rgb(13, 58, 255);
+    --verde: #5af7dc;
+    --rosa: #ff16ff;
+    --branco: rgb(255, 255, 255);
+    --menu: rgb(15, 15, 15);
+    --title: "Bebas Neue", cursive;
+    font-size: 16px;
+}
+
+*{ /* Resete do Padrão de Medidas do CSS */
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: var(--azul);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+/* ---- Altera o HEADER com a LOGO ---- */
+
+header{
+    width: 15%;
+    height: 8%;
+    background-color: var(--azul);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+header img{
+    max-width: 75%;
+    max-height: 75%;
+    height: auto;
+    width: auto;
+}
+
+/* ---- Altera a NAV ---- */
+
+nav{
+    width: 85%;
+    height: 8%;
+    background-color: var(--azul);
+    position: fixed;
+    top: 0;
+    left: 15%;
+    z-index: 9999;
+}
+
+/* ---- Altera o MENU ESQUERDO ---- */
+
+nav .left-container{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    z-index: 100;
+
+}
+
+nav .leagues{
+    width: 80%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    left: 20%;
+    top: -100%;
+}
+
+
+nav .left-container .menu{
+    width: 30%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    z-index: 100;
+}
+
+nav .left-container .menu .menu-button{
+    background-color: rgba(0,0,0,0.0);
+    color: white;
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+    font-family: var(--title);
+    font-size: 1.5rem;
+    z-index: 100;
+
+}
+
+nav .left-container .menu .menu-button i{
+    margin-left: 2%;
+    margin-bottom: 4%;
+    vertical-align: middle;
+    z-index: 100;
+    font-size: 1rem;
+}
+
+nav .left-container .menu .menu-content {
+    display: none;
+    position: absolute;
+    background-color: var(--verde);
+    font-family: var(--title);
+    font-size: 1.5rem;
+    z-index: 1000;
+    text-align: center;
+    width: 100%;
+    z-index: 100;
+}
+  
+nav .left-container .menu-content a{
+    color: var(--azul);
+    padding: 10% 10%;
+    text-decoration: none;
+    display: block;
+    z-index: 100;
+}
+
+nav .left-container .menu-content a:hover {
+    background-color: var(--branco);
+    color: var(--azul);
+    z-index: 1000;
+}
+
+nav .left-container .menu:hover .menu-content {display: block; z-index: 1000;}
+
+
+nav .left-container .menu:hover .menu-button {
+    background-color: rgba(255,255,255,1.0);
+    color: var(--azul);
+    z-index: 1000;
+}
+
+/* ---- Altera o MENU DIREITO ---- */
+
+nav .right-container{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    top: -100%;
+    left: 50%;
+}
+
+nav .right-container .search{
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    display: inline-block;
+}
+
+nav .right-container .search i{
+    font-size: 1.25rem;
+}
+
+nav .right-container .search .search-button{
+    background-color: rgba(0,0,0,0.0);
+    color: white;
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+    font-family: var(--title);
+    font-size: 1.5rem;
+}
+
+nav .right-container .search:hover .search-button {
+    background-color: rgba(255,255,255,1.0);
+    color: var(--azul);
+    border: 5px solid white;
+}
+
+nav .right-container .remember{
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    left: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+nav .right-container .remember i{
+    color: var(--verde);
+}
+
+nav .right-container .remember:hover{
+    background-color: white;
+}
+
+nav .right-container .remember i:hover{
+    color: var(--azul);
+}
+
+nav .right-container .user{
+    width: 40%;
+    height: 100%;
+    position: relative;
+    left: 60%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .right-container .user .drop-user {
+    background-color: rgba(0,0,0,0.0);
+    color: white;
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+    font-family: var(--title);
+    font-size: 1rem;
+  }
+  
+nav .right-container .user-content {
+    display: none;
+    position: absolute;
+    background-color: var(--verde);
+    font-family: var(--title);
+    font-size: 1.5rem;
+    z-index: 1;
+    text-align: center;
+    width: 100%;
+  }
+  
+nav .right-container .dropdown-divider{
+    background-color: rgb(74, 206, 184);
+    padding: 0px;
+}
+
+nav .right-container .user-content a {
+    color: var(--azul);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+nav .right-container .user-content a:hover {
+    background-color: var(--branco);
+    color: var(--azul);
+}
+
+nav .right-container .user:hover .user-content {display: block;}
+
+nav .right-container .user:hover .drop-user {
+    background-color:white;
+    color: var(--azul);
+    padding: 10px;
+}
+
+/* ---- Altera a MAIN ---- */
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+/* ---- Altera a SECTION PRINCIPAL ---- */
+
+section{
+    width: 100%;
+    height: 100%;
+}
+
+.principal{
+    background-color: var(--azul);
+    position: relative;
+}
+
+.principal .video-container{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.principal .filter{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%);
+    position: absolute;
+}
+
+.principal .video-container video{
+    min-width: 100%;
+    min-height: 100%;
+}
+   
+.principal .info{
+    width: 40%;
+    height: auto;
+    background-color: rgba(6, 17, 58,0.0);
+    font-family: var(--title);
+    color: white;
+    position: absolute;
+    text-align: left;
+    padding-left: 2%;
+    padding-bottom: 5%;
+    font-size: 1.85rem;
+    bottom: 0;
+
+    
+}
+
+.principal .info img{
+    width: 6rem;
+    height: auto;
+}
+
+.principal .info .sinopse{
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    word-wrap: break-word;
+    
+}
+
+.principal .info .botoes{
+    padding-top: 4%;
+    z-index: 0;
+}
+
+
+.botao_play{
+    background-color: var(--verde);
+    border: none;
+    color: var(--azul);
+    padding: 15px 30px;
+    margin-right: 12px;
+    font-size: 1.5rem;
+    font-family: var(--title);
+    cursor: pointer;
+    transition: .3s ease all;
+    z-index: 0;
+
+}
+
+.botao_list{
+    background-color: rgba(0,0,0,0);
+    border: 5px solid var(--branco);
+    color: white;
+    padding: 10px 25px;
+    margin-right: 12px;
+    font-size: 1.5rem;
+    font-family: var(--title);
+    cursor: pointer;
+    transition: .3s ease all;
+    z-index: 0;
+
+}
+
+.botao_list_mobile{
+    z-index: -9999;
+}
+
+.botao_list_mobile i{
+    display: none;
+}
+
+.botao_play i{
+    margin-right: 8px;
+}
+
+.botao_list i{
+    margin-right: 8px;
+}
+
+
+.botao_play:hover{
+    background-color: var(--branco);
+}
+
+.botao_list:hover{
+    background-color: var(--branco);
+    color: var(--azul);
+}
+
+/* ---- Altera estilo do carrosel de filmes ---- */
+
+.carousel-films{
+    width: 100%;
+    height: 75%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.box-film{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+
+main .title{
+    padding-top: 2%;
+    padding-left: 2%;  
+    font-family: var(--title);
+    color: var(--branco);
+    font-size: 1rem;
+    width: 100%;
+    height: 25%;
+}
+
+.catalogo .em-alta{
+    width: 100%;
+    height: 50%;
+    background-color: var(--azul);
+}
+
+.catalogo .jogos{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(3, 10, 34);
+}
+
+.catalogo2 .filmes{
+    width: 100%;
+    height: 50%;
+    background-color: var(--azul);
+}
+.catalogo2 .documentarios{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(3, 10, 34);
+}
+
+footer{
+    width: 100%;
+    height: 8%;
+    background-color: var(--verde);  
+    color:rgb(6, 17, 58);
+}
+
+footer .left-footer{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    z-index: 100;
+    text-align: right;
+    display: table;
+}
+
+
+footer .footer-text{
+    font-family: 'Arial Black';
+    font-size: 1rem;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+footer .right-footer{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    top: -100%;
+    left: 50%;
+    text-align: left;
+    padding-left: 1%;
+    display: table;
+    font-size: 0.8rem;
+}
+   
+footer .socialmedia{
+    display: table-cell;
+    vertical-align: middle;
+}
